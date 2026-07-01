@@ -1,1 +1,117 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+# ===========================
+# Virtual Environments
+# ===========================
+venv/
+.venv/
+env/
+ENV/
+
+# ===========================
+# Environment Variables
+# ===========================
 .env
+.env.*
+!.env.example
+
+# ===========================
+# Logs
+# ===========================
+*.log
+logs/
+
+# ===========================
+# SQLite Databases
+# ===========================
+*.db
+*.sqlite
+*.sqlite3
+
+# ===========================
+# Build & Distribution
+# ===========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ===========================
+# Test & Coverage
+# ===========================
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# ===========================
+# Jupyter
+# ===========================
+.ipynb_checkpoints/
+
+# ===========================
+# VS Code
+# ===========================
+.vscode/
+
+# ===========================
+# PyCharm
+# ===========================
+.idea/
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===========================
+# Temporary Files
+# ===========================
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# ===========================
+# Secrets
+# ===========================
+*.pem
+*.key
+*.crt
+*.p12
+
+# ===========================
+# Node.js (if using React or JS tools)
+# ===========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+
+# ===========================
+# AI / ML Models (optional)
+# ===========================
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# ===========================
+# Local Configuration
+# ===========================
+config.local.py
+local_settings.py
